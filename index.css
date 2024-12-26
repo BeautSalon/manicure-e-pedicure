@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(253 191 255);
+}
+.logo{
+    margin: 10px;
+    width: 93%;
+}
+img.voltar{
+    height: 28px;
+    margin-right: 84%;
+    margin-top: 17px;
+}
+.relogio{
+    margin: 8px 10px;
+    display: block;
+    height: 30px;
+}
+a{
+    display: contents;
+}
+header{
+    background: url(imagens/rosa\ textura.avif) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align:center;
+    margin: -9px -8px 0px -8px;
+    background-size: cover;
+    text-align: center;
+    border: 1px;
+    border-radius: 0px 0px 10px 10px;
+    border-style: solid;
+    border-color: black
+}
+.caixa{
+    display: grid;
+    margin: 25px;
+}
+.texto{
+    text-align: justify;
+}
+.imagem{
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    height: 158px;
+    border-radius:100%;
+}
+.imagem:hover{
+    padding: 10px;
+    height: 175px;
+    width: 175px;
+    border-radius:10px;
+}
+.imagem:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 100%;
+  }
+.rodape{
+    background: url(imagens/rosa\ textura.avif) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align:center;
+    margin: 0px -8px -9px -8px;
+    background-size: cover;
+    text-align: center;
+    border: 1px;
+    border-radius: 10px 10px 0px 0px;
+    border-style: solid;
+    border-color: black;
+}
+.form{
+    background-color: #ffb6f9;
+    display: inline-grid;
+    padding: 30px 60px;
+    margin: 50px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+label{
+    margin: 10px;
+    font-weight: bold;
+}
+.botaoenv{
+    margin: 20px 0px;
+}
+.botaoenv:hover {
+    margin: 20px 0px;
+    text-decoration: underline;
+    border-style: solid;
+}
+img.icones{
+    height: 40px;
+}
+.icones:hover{
+    height: 50px;
+}
+.mensagem{
+    height: 100px;
+    width: 190px;
+}
+.menu{
+    list-style: none;   
+    float: left;
+    margin: -30px 1px 0px -29px;
+}
+.menu li{
+    position:relative;
+    float:left;
+}
+.menu li a{
+    color:black;
+    text-decoration:none; 
+    padding:5px 10px; 
+    display:block;
+}
+.menu li a:hover{
+    background-color: rgb(255, 203, 255);
+    color:#fff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px #000000;
+}
+.menu li  ul{
+    background-color: rgb(255, 215, 215);
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#fff;
+    display:none;
+}
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+}
+.menu li ul li{
+    background: url(imagens/rosa\ textura.avif) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align:center;
+    margin: 0px 0px 0px -40px;
+    display: block;
+    width: 150px;
+}
+.imagmenu{
+    height: 20px;
+    margin: -5px 5px;
+}
+table{
+    text-align: center;
+}
